@@ -27,10 +27,12 @@ import ReactDOM from 'react-dom/client'
 let devName=' Akshay'
 
 //but if i made proper element which can be understand by render in react
+// eslint-disable-next-line react-refresh/only-export-components
 const AnotherElement =  <a href="https://linkedin.com" target='_blank'>Visit linkedin</a>
 //JSX expects uppercase names for components. In your case
 
 
+// eslint-disable-next-line react-refresh/only-export-components
 const ReactEle=React.createElement('p',{style:{color:'green'}},'React Para',devName)
 
 
