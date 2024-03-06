@@ -15,7 +15,7 @@ function App() {
         <div> <Card username='Meet' btn='visit Meet'/>
         </div>
         
-      </div>
+      </div> 
     </>
   );
 }
