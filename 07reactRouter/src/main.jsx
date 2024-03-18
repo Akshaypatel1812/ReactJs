@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import './index.css'
@@ -16,7 +16,8 @@ import User from './components/User.jsx'
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path='/' element={<Layout />}>
-      <Route path='' element={<Home />} />   
+         
+      <Route path='/Home' element={<Home/>}/>
       < Route path='about' element={<About/>}/>
       < Route path='contact' element={<ContactUs/>}/>
       < Route path='git' element={<GitHubPage/>}/>
